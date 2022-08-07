@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+/* font-family: 'Gochi Hand', cursive; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    width: 100vw;
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 3.5rem;
+    background: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    padding: 0.3rem 0;
+}
+
+.nav_container {
+    width: 70vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    height: 100%;
+    margin-top: 0.2rem;
+}
+
+.brand p {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 2.5rem;
+}
+
+.search_input {
+    width: 20rem;
+    height: 2rem;
+    border: none;
+    border-radius: 10px;
+    padding-left: 25px;
+    text-transform: capitalize;
+    background-image: url(./img/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: 2% 40%;
+    background-size: 1rem 1rem;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.search_input:focus {
+    outline: none;
+    background-image: url(./img/close_icon.png);
+    background-repeat: no-repeat;
+    background-position: 98% 50%;
+    background-size: 1rem 1rem;
+    padding-left: 5px;
+}
+
+.nav_icon {
+    position: relative;
+    height: 1.5rem;
+}
+
+.fa-solid {
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 0 8px;
+    color: black;
+}
