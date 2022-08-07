@@ -72,13 +72,33 @@ body {
 }
 
 .nav_icon {
-    position: relative;
-    height: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 3rem;
+    
 }
 
 .fa-solid {
     font-size: 1.5rem;
     cursor: pointer;
-    margin: 0 8px;
+    margin: 0 10px;
     color: black;
+    top: 0;
+}
+
+.fa-heart:hover {
+    color: rgb(175, 52, 52);
+}
+
+.user {
+    align-self: baseline;
+    margin-top: 6px;
+    width: 2rem;
+    height: 2rem;
+    background-image: url(./img/wolf.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
 }
