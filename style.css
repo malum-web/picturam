@@ -186,3 +186,11 @@ body {
     margin-top: 0.3rem;
     color: rgba(0, 0, 0, 0.5);
 }
+
+.post {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    margin-top: 2.5rem;
+}
