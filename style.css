@@ -304,7 +304,7 @@ body {
 }
 
 .add_comment:hover, 
-.action_btn:hover {    
+.action_btn:hover {
     filter: brightness(1.2);
 }
 
