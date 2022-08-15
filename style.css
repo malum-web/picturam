@@ -10,7 +10,13 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    display: none;
+  }
+
 body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
     position: relative;
     width: 100vw;
     background-color: whitesmoke;
